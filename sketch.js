@@ -193,16 +193,16 @@ function spawnObstacles() {
   }
 }
 
-// function reset(){
-//   gameState = PLAY;
-//   score = 0;
-//   gameOver.visible = false;
-//   restart.visible = false;
-//   kangaroo.visible = true;
-//   kangaroo.changeAnimation("running", kangaroo_running);
-//   obstaclesGroup.destroyEach();
-//   shrubsGroup.destroyEach();
-// }
+ function reset(){
+   gameState = PLAY;
+   score = 0;
+   gameOver.visible = false;
+   restart.visible = false;
+   kangaroo.visible = true;
+   kangaroo.changeAnimation("running", kangaroo_running);
+   obstaclesGroup.destroyEach();
+   shrubsGroup.destroyEach();
+ }
 
 // function reset{
 //   gameState = PLAY;
